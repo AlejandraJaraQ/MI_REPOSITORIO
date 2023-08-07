@@ -1,0 +1,176 @@
+/* Reset and Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/* Body Styles */
+body {
+  background-color: aliceblue;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 6px 10%;
+}
+
+.header .logo img {
+  height: 200px;
+  width: auto;
+}
+
+.header .nav-links {
+  list-style: none;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links a {
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+  padding: 9px 20px;
+  background: #e9f1f4;
+  border-radius: 50px;
+}
+
+/* Content Styles */
+.contenedor {
+  margin-left: 50px;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor img {
+  margin: 25px;
+  height: 70vh;
+  width: auto;
+}
+
+h2, .h2_dev {
+  color: red;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+h3, .h3_dev {
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-top: 25px;
+}
+p {
+  margin: 35px 35px 0 35px;
+  text-align: justify;
+  line-height: 200%;
+}
+
+/* Text with Image Styles */
+.content-text {
+  display: inline;
+  align-items: center;
+}
+
+.text-with-image {
+  flex: 1;
+}
+
+.text-with-image span {
+  float: right;
+  margin-left: 10px;
+}
+
+.text-with-image img {
+  width: 200px;
+  height: auto;
+}
+
+.text-with-image p {
+  text-align: justify;
+}
+
+/* Button Styles */
+.boton {
+  margin: 20px 30px 0 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 50rem;
+  border-bottom: 20vh;
+  display: block;
+}
+
+/* Section Styles */
+.seccion {
+  margin-top: 30vh;
+  background-color: #005185;
+}
+
+.h2-yellow {
+  color: #E49E56;
+  margin-top: 25px;
+}
+
+/* Footer Styles */
+.footer {
+  margin: 56;
+  background-color: #005185;
+  text-align: center;
+  padding: 20px;
+}
+
+.h1footer {
+  color: red;
+}
+
+.h2_dev_ {
+  color: rgb(254, 0, 0);
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #005185;
+}
+
+.contacto {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+h3 {
+  color: white;
+  margin-left: 45px;
+}
+
+.contacto i {
+  margin-right: 10px; 
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+/* Body Styles */
+body {
+  background-color: #045384; /* Azul intenso en formato hexadecimal */
+}
