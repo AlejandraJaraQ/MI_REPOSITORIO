@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro para el Aula Virtual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Registro para el Aula Virtual</h1>
+  <form id="registrationForm" onsubmit="return validarFormulario()">
+    <label for="carrera">Carrera:</label>
+    <select id="carrera" name="carrera">
+      <option value="analisisSistemas">Análisis de Sistemas</option>
+      <option value="produccionAgraria">Producción Agraria</option>
+    </select><br><br>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos"><br><br>
+
+    <label for="nombres">Nombres:</label>
+    <input type="text" id="nombres" name="nombres"><br><br>
+
+    <label for="dni">Número de DNI:</label>
+    <input type="number" id="dni" name="dni"><br><br>
+
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento"><br><br>
+
+    <label for="correo">Correo Institucional:</label>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena"><br><br>
+
+    <input type="checkbox" id="terminos" name="terminos">
+    <label for="terminos">Acepto los términos y condiciones.</label><br><br>
+
+    <input type="submit" value="Registrarse">
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
